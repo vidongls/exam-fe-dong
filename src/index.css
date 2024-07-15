@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Marcellus", Open-Sans, system-ui, sans-serif;
+	}
+}
+
+.button {
+	@apply border border-primary tracking-wider font-sans py-5 px-[46px] text-primary font-semibold rounded-full hover:bg-primary w-fit cursor-pointer uppercase hover:text-tertiary transition-all duration-200 ease-in;
+}
+
+*:focus-visible {
+	outline: none !important;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+hr {
+	border: none;
+	border-top: 1px dashed #d2cfcc;
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+	width: 100%;
+}
+
