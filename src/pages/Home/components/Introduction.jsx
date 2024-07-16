@@ -13,7 +13,7 @@ export const Introduction = () => {
 					<h2 className="text-xl md:text-2xl xl:text-[65px] text-primary uppercase flex items-baseline gap-3 xl:gap-6 justify-center mb-2.5">
 						Special <span className="text-tertiary ">coffee</span>
 					</h2>
-					<p className="text-primary text-center md:text-balance text-sm sm:text-xl font-light mb-4 md:mb-6 xl:mb-10">
+					<p className="text-primary text-center md:text-balance max-md:pl-2 text-sm md:text-base xl:text-xl font-light mb-4 md:mb-6 xl:mb-10">
 						Morbi justo vel diam non leo elementum massa. Molestie ipsum condimentum egestas vitae ut cras aenean enim. Laoreet odio
 						adipiscing auctor scelerisque phasellus nisl faucibus.
 					</p>
