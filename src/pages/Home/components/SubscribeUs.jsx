@@ -3,7 +3,7 @@ import imageRight from "../../../assets/icons/description-right.svg";
 
 export const SubscribeUs = () => {
 	return (
-		<div className="relative mt-16 p-8 lg:p-20">
+		<div className="relative mt-6 md:mt-10 xl:mt-16 p-8 lg:p-20">
 			<img src={imageLeft} alt="Leaf Left" className="absolute left-0 -top-10 hidden lg:block w-64" />
 			<div className="flex items-center flex-col text-center">
 				<div className="uppercase text-5xl font-normal text-primary">Subscribe us</div>

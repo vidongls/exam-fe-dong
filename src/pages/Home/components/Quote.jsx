@@ -15,7 +15,7 @@ export const Quote = () => {
 	};
 
 	return (
-		<div className="mt-[80px] px-4 md:px-0">
+		<div className="mt-10 md:mt-12 xl:mt-[80px] px-4 md:px-0">
 			<div className="flex items-center justify-center md:justify-between">
 				<div
 					onClick={() => sliderRef.current.slickPrev()}
@@ -29,20 +29,20 @@ export const Quote = () => {
 						/>
 					</svg>
 				</div>
-				<div className="w-full max-w-screen-lg px-4">
+				<div className="w-full max-w-72 md:max-w-md xl:max-w-screen-lg px-4">
 					<Slider ref={sliderRef} {...settings}>
 						<div className="text-center">
-							<div className="text-primary font-light text-xl md:text-2xl lg:text-[28px] italic leading-[30px] md:leading-[68px] ">
+							<div className="text-primary font-light text-l md:text-lg xl:text-[28px] italic leading-[30px] md:leading-9 xl:leading-[68px] ">
 								“Habitant aliquet sed suspendisse lectus sit gravida sit morbi augue. Porta cursus diam sit velit mi. Maecenas
 								scelerisque tellus nulla ut vitae amet morbi platea blandit vestibulum dignissim.”
 							</div>
-							<div className="text-lg md:text-2xl font-normal leading-[30px] text-primary mt-5">Sarah Anderson</div>
+							<div className="text-lg md:text-lg font-normal leading-[30px] text-primary mt-5">Sarah Anderson</div>
 						</div>
 						<div className="text-center">
-							<div className="text-primary font-light text-xl md:text-2xl lg:text-[28px] italic leading-[30px] md:leading-[68px]">
+							<div className="text-primary font-light text-xl md:text-lg xl:text-[28px] italic leading-[30px] md:leading-9 xl:leading-[68px]">
 								“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at odio vitae dui feugiat tincidunt.”
 							</div>
-							<div className="text-lg md:text-2xl font-normal leading-[30px] text-primary mt-5">John Doe</div>
+							<div className="text-lg md:text-lg font-normal leading-[30px] text-primary mt-5">John Doe</div>
 						</div>
 					</Slider>
 				</div>

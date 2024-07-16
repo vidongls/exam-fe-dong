@@ -3,8 +3,8 @@ import iconSearch from "../assets/icons/search-icon.svg";
 
 const ActionHeader = () => {
 	return (
-		<div className="border-t border-b border-primary pl-[34px] flex-1 py-[28px] flex justify-end items-center gap-[50px]">
-			<div className="flex items-center relative w-[260px]">
+		<div className="border-t border-b border-primary pl-3 md:pl-6 lg:pl-[34px] flex-1 py-5 lg:py-[28px] flex justify-end items-center gap-3 md:gap-9 lg:gap-[50px]">
+			<div className=" items-center relative w-[120px] md:w-[160px] xl:w-[260px] hidden lg:flex">
 				<input
 					type="text"
 					className=" border border-secondary-50 text-primary text-sm rounded-full h-12 pl-[22px] w-full placeholder:text-primary focus:ring-secondary-50 focus-visible:border-secondary-50 focus:border-secondary-50 ring-0"

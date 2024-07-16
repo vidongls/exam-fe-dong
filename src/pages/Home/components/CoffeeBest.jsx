@@ -16,14 +16,14 @@ export const CoffeeBest = () => {
 		arrows: false,
 		responsive: [
 			{
-				breakpoint: 1024,
+				breakpoint: 768,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1,
 				},
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
@@ -35,9 +35,9 @@ export const CoffeeBest = () => {
 	return (
 		<div>
 			<div className="flex items-center justify-between">
-				<h4 className="uppercase text-[60px] leading-[75px] text-primary">shop Best coffee</h4>
+				<h4 className="uppercase text-xl md:text-3xl xl:text-6xl xl:leading-[75px] text-primary">shop Best coffee</h4>
 				<div className="flex items-center">
-					<span className="uppercase text-lg font-semibold leading-[27px] text-primary cursor-pointer mr-[50px] border-b-2 border-b-[#D0D0D0] hover:border-b-primary">
+					<span className="uppercase text-base xl:text-lg font-semibold xl:leading-[27px] text-primary cursor-pointer mr-4 md:mr-9 xl:mr-[50px] border-b-2 border-b-[#D0D0D0] hover:border-b-primary">
 						view all
 					</span>
 					<button
@@ -71,8 +71,8 @@ export const CoffeeBest = () => {
 					<div className="p-4 flex flex-col" key={idx}>
 						<img src={image1} className="w-full object-cover rounded-[10px] " alt="Best Coffee" />
 						<div className="mt-6 flex flex-col gap-[6px] text-center lg:text-left">
-							<span className="uppercase text-2xl md:text-[30px] lg:text-[34px] font-normal text-primary">Caramelicious</span>
-							<span className="text-tertiary text-2xl md:text-[30px] lg:text-[34px]">$29.00</span>
+							<span className="uppercase text-lg md:text-2xl xl:text-[34px] font-normal text-primary">Caramelicious</span>
+							<span className="text-tertiary text-lg md:text-2xl xl:text-[34px]">$29.00</span>
 						</div>
 					</div>
 				))}

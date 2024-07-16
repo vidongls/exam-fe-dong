@@ -1,6 +1,6 @@
 export const QuickSection = () => {
 	return (
-		<div className="px-[75px] py-10 border-t border-t-primary border-b border-b-primary flex items-center gap-[160px]">
+		<div className="px-6 md:px-8 xl:px-[75px] py-6 md:py-8 xl:py-10 border-t border-t-primary border-b border-b-primary grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-16 md:gap-10 xl:gap-[160px]">
 			<div className="flex items-center justify-center text-center flex-col">
 				<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="mb-3.5">
 					<path

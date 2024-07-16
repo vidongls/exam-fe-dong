@@ -5,7 +5,7 @@ import category4 from "../../../assets/category-4.svg";
 
 export const Categories = () => {
 	return (
-		<div className="mt-[100px] md:mt-[200px]">
+		<div className="mt-14 md:mt-[100px] xl:mt-[200px]">
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
 				<img src={category1} alt="" className="w-full h-full object-cover" />
 				<div className="p-[15px] h-full ">

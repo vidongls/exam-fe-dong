@@ -9,7 +9,7 @@
 }
 
 .button {
-	@apply border border-primary tracking-wider font-sans py-5 px-[46px] text-primary font-semibold rounded-full hover:bg-primary w-fit cursor-pointer uppercase hover:text-tertiary transition-all duration-200 ease-in;
+	@apply border border-primary tracking-wider font-sans py-2 md:py-3 xl:py-5 px-6 md:px-9 xl:px-[46px] text-primary font-semibold rounded-full hover:bg-primary w-fit cursor-pointer uppercase hover:text-tertiary transition-all duration-200 ease-in;
 }
 
 *:focus-visible {

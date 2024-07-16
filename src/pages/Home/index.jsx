@@ -14,7 +14,7 @@ import { SubscribeUs } from "./components/SubscribeUs";
 const Home = () => {
 	return (
 		<Layout>
-			<div className="px-[76px]">
+			<div className="px-3 md:px-8 xl:px-[76px]">
 				<Introduction />
 				<Description />
 				<CoffeeBest />
@@ -24,7 +24,7 @@ const Home = () => {
 				<SubscribeUs />
 			</div>
 			<QuickSection />
-			<div className="px-[76px]">
+			<div className="px-3 md:px-8 xl:px-[76px]">
 				<ReadOurBlog />
 				<FollowOur />
 			</div>

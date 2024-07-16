@@ -78,14 +78,14 @@ export const ArrivalBestSelling = () => {
 	];
 
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 mt-[200px] lg:gap-[140px] gap-[80px]">
+		<div className="grid grid-cols-1 lg:grid-cols-2 mt-16 md:mt-20 xl:mt-[200px] lg:gap-[140px] gap-[80px]">
 			<div>
-				<h4 className="uppercase text-[60px] leading-[75px] text-primary mb-10">New arrivals</h4>
+				<h4 className="uppercase text-xl md:text-3xl xl:text-[60px] xl:leading-[75px] text-primary mb-4 md:mb-6 xl:mb-10">New arrivals</h4>
 				{arrivals.map((item, idx) => (
 					<div className="flex items-center mb-5 last-of-type:mb-0" key={idx}>
-						<img src={item.imgUrl} alt="" className="w-[90px] h-[90px] rounded-full mr-[18px]" />
+						<img src={item.imgUrl} alt="" className="w-[60px] h-[60px]  xl:w-[90px] xl:h-[90px] rounded-full mr-[18px]" />
 						<div className="flex-1">
-							<div className="uppercase text-primary text-2xl leading-[30px] mb-3 flex items-baseline justify-between">
+							<div className="uppercase text-primary text-lg xl:text-2xl leading-[30px] mb-3 flex items-baseline justify-between">
 								<span className="whitespace-nowrap">{item.title}</span>
 								<hr />
 								<span>{item.price}</span>
@@ -99,12 +99,12 @@ export const ArrivalBestSelling = () => {
 				</span>
 			</div>
 			<div>
-				<h4 className="uppercase text-[60px] leading-[75px] text-primary mb-10">Best Selling</h4>
+				<h4 className="uppercase text-xl md:text-3xl xl:text-[60px] xl:leading-[75px] text-primary md:mb-6 xl:mb-10">Best Selling</h4>
 				{bestSellers.map((item, idx) => (
 					<div className="flex items-center mb-5 last-of-type:mb-0" key={idx}>
-						<img src={item.imgUrl} alt="" className="w-[90px] h-[90px] rounded-full mr-[18px]" />
+						<img src={item.imgUrl} alt="" className="w-[60px] h-[60px]  xl:w-[90px] xl:h-[90px] rounded-full mr-[18px]" />
 						<div className="flex-1">
-							<div className="uppercase text-primary text-2xl leading-[30px] mb-3 flex items-baseline justify-between">
+							<div className="uppercase text-primary text-lg xl:text-2xl leading-[30px] mb-3 flex items-baseline justify-between">
 								<span className="whitespace-nowrap">{item.title}</span>
 								<hr />
 								<span>{item.price}</span>
