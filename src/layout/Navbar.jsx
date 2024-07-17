@@ -34,15 +34,13 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			{!isExpand && (
-				<div id="nav-icon1" className={isExpand ? "open" : ""} onClick={onExpand}>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			)}
+			<div id="nav-icon1" className={`lg:hidden  ${isExpand ? "open " : ""}`} onClick={onExpand}>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 			{isExpand && (
-				<div className={"fixed bg-gray-400 w-screen h-screen left-0 top-0 z-50 bg-opacity-50 "}>
+				<div className={"fixed bg-gray-400 w-screen h-screen left-0 top-0 z-50 bg-opacity-50 lg:hidden"}>
 					<div className="w-[300px] h-full bg-white p-6">
 						<div id="nav-icon1" className={isExpand ? "open" : ""} onClick={onExpand}>
 							<span></span>
